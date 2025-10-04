@@ -1,70 +1,120 @@
-# pizza-sales-analysis
-Data analysis project on pizza sales using Python &amp; Pandas. Includes KPIs, sales trends, best/least selling pizzas, and interactive visualizations for business insights.
-# 🍕 Pizza Sales Analysis
+# 🍕 Pizza Sales Analysis Dashboard  
 
-## 📌 Project Overview
-This project analyzes transactional sales data from a pizza store to uncover **key business insights, trends, and KPIs**.  
-The goal is to help management make informed decisions on **sales, marketing, inventory, and operations**.  
-
-## 🎯 Business Objectives
-- Calculate overall **Revenue, Total Pizzas Sold, and Total Orders**.  
-- Analyze **sales distribution** by category, size, and type.  
-- Identify **best-selling & least-selling pizzas**.  
-- Study **time-based sales trends** (daily, monthly, hourly).  
-- Compute **KPIs** like Average Order Value (AOV) & Average Pizza per Order.  
-- Build **visualization dashboards** for decision-making.  
-
-## 📂 Dataset
-**File:** `pizza_sales.csv`  
-**Key Fields:**  
-- `order_id` → Unique identifier for each order  
-- `pizza_id` → Unique identifier for each pizza  
-- `pizza_name` → Pizza sold  
-- `quantity` → Number of pizzas sold  
-- `total_price` → Transaction revenue  
-- `date`, `time` → Order timestamp  
-- `pizza_category`, `pizza_size` → Classification attributes  
-
-## 📊 Key Performance Indicators (KPIs)
-- **Total Revenue** = Sum of total_price  
-- **Total Pizzas Sold** = Sum of quantity  
-- **Total Orders** = Count of unique order_id  
-- **Average Order Value (AOV)** = Total Revenue ÷ Total Orders  
-- **Average Pizzas per Order** = Total Pizzas Sold ÷ Total Orders  
-
-## 📈 Analysis & Visualizations
-- **Daily Trend** → Sales by day of the week  
-- **Hourly Trend** → Sales by hour of the day  
-- **Monthly Trend** → Revenue & orders trend  
-- **% Sales by Category & Size** → Customer preferences & inventory planning  
-- **Top 5 Best-Selling Pizzas** → Menu & promotions strategy  
-- **Bottom 5 Least-Selling Pizzas** → Optimization opportunities  
-
-## 💡 Business Insights
-- Classic pizzas dominate sales, Veggie pizzas have lower demand.  
-- Large pizzas contribute the most revenue.  
-- Peak sales occur during weekends & summer months.  
-- Some pizzas show consistently poor performance → can be redesigned or removed.  
-
-## 🛠️ Tech Stack
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
-- **Jupyter Notebook** for analysis  
-- **CSV Dataset** (pizza_sales.csv)  
-
-## 📑 Deliverables
-- Jupyter Notebook with complete analysis  
-- Visualizations (bar charts, line charts, trend charts)  
-- Business Requirements Document (BRD)  
-- Insights & recommendations  
-
-## ✅ Conclusion & Recommendations
-- Focus marketing on **high-performing categories**.  
-- Optimize menu by reconsidering **least-selling pizzas**.  
-- Plan inventory & staffing based on **peak hours and seasons**.  
-- Monitor KPIs regularly via dashboards for **continuous improvement**.  
+### 🧾 Project Overview  
+An end-to-end **Pizza Sales Data Analysis** project designed to explore sales trends, performance metrics, and customer insights using **Python** and visualization libraries.  
+This project helps business owners understand **which pizzas sell best, when sales peak, and how to improve operations**.
 
 ---
 
-👩‍💻 **Author:** Jyoti Gupta  
-🔗 [LinkedIn](https://linkedin.com/in/jyoti-gupta--) | [GitHub](https://github.com/jyotigupta17998)  
+## 🎯 Business Objectives  
+✅ Identify total **revenue, orders, and pizzas sold**  
+✅ Analyze **sales by category, size, and type**  
+✅ Study **daily, monthly, and hourly sales trends**  
+✅ Find **top and bottom-performing pizzas**  
+✅ Calculate **KPIs like Average Order Value (AOV)** and **Average Pizzas per Order**  
 
+---
+
+## 📊 Dataset  
+**File:** `pizza_sales.csv`  
+
+| Field | Description |
+|:------|:-------------|
+| order_id | Unique order identifier |
+| pizza_id | Unique pizza identifier |
+| pizza_name | Name of the pizza sold |
+| quantity | Number of pizzas sold |
+| total_price | Total sale amount |
+| date / time | Timestamp of order |
+| pizza_category | Pizza type (Classic, Supreme, etc.) |
+| pizza_size | Pizza size (S, M, L, XL) |
+
+---
+
+## ⚙️ KPIs Calculated  
+📌 **Total Revenue** = Σ total_price  
+📌 **Total Pizzas Sold** = Σ quantity  
+📌 **Total Orders** = Count(order_id)  
+📌 **Average Order Value (AOV)** = Revenue ÷ Orders  
+📌 **Average Pizzas per Order** = Pizzas ÷ Orders  
+
+---
+
+## 📈 Visual Insights  
+
+### 🗓️ 1️⃣ Daily Sales Trend  
+Shows which day has the highest sales.  
+![Daily Sales](images/daily_sales.png)  
+
+---
+
+### ⏰ 2️⃣ Hourly Sales Trend  
+Identifies the busiest hours for pizza orders.  
+![Hourly Sales](images/hourly_sales.png)  
+
+---
+
+### 📅 3️⃣ Monthly Revenue Trend  
+Reveals seasonal or campaign-driven spikes in sales.  
+![Monthly Sales](images/monthly_sales.png)  
+
+---
+
+### 🍕 4️⃣ % Sales by Category  
+Compares Classic, Supreme, Veggie & Chicken categories.  
+![Category Sales](images/category_sales.png)  
+
+---
+
+### 📏 5️⃣ % Sales by Pizza Size  
+Highlights the most popular pizza sizes.  
+![Size Sales](images/size_sales.png)  
+
+---
+
+### ⭐ 6️⃣ Top 5 Best-Selling Pizzas  
+Helps identify customer favorites for promotions.  
+![Top Pizzas](images/top_pizzas.png)  
+
+---
+
+### ⚠️ 7️⃣ Bottom 5 Least-Selling Pizzas  
+Shows pizzas that may need marketing or removal.  
+![Bottom Pizzas](images/bottom_pizzas.png)  
+
+---
+
+## 💡 Business Questions Answered  
+❓ What’s the total revenue and total pizzas sold?  
+❓ Which categories and sizes perform best?  
+❓ What are the busiest days and hours?  
+❓ Which pizzas sell the most or least?  
+❓ How can sales be improved through data insights?  
+
+---
+
+## 🧠 Insights & Recommendations  
+🔹 Focus marketing on high-performing pizzas  
+🔹 Improve or discontinue low-performing items  
+🔹 Plan staffing & inventory using sales peaks  
+🔹 Regularly monitor KPIs via dashboards  
+
+---
+
+## 🛠️ Tools & Technologies  
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn  
+- **Jupyter Notebook**  
+- **CSV Dataset (pizza_sales.csv)**  
+- **GitHub** for portfolio hosting  
+
+---
+
+## 👩‍💻 Author  
+**Jyoti Gupta**  
+📍 Greater Noida, India  
+📧 [guptajyoti10898@gmail.com](mailto:guptajyoti10898@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jyoti-gupta--) | [GitHub](https://github.com/jyotigupta17998)  
+
+---
+
+✨ *This project is part of my Data Analytics portfolio, demonstrating my ability to clean, analyze, and visualize real-world business data using Python.*  
