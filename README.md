@@ -93,11 +93,19 @@ Shows pizzas that may need marketing or removal.
 
 ---
 
-## 🧠 Insights & Recommendations  
-🔹 Focus marketing on high-performing pizzas  
-🔹 Improve or discontinue low-performing items  
-🔹 Plan staffing & inventory using sales peaks  
-🔹 Regularly monitor KPIs via dashboards  
+## 🧠 Key Insights & Business Recommendations
+
+🔹 Top 5 pizzas contribute a major share of total revenue, indicating strong product concentration. These items should be prioritized in promotions and combo offers.
+
+🔹 Weekend sales are significantly higher than weekdays, suggesting increased customer demand during leisure periods. Staffing and inventory should be optimized accordingly.
+
+🔹 Large-size pizzas generate the highest revenue, indicating customer preference for value-based purchases. Pricing strategies can leverage this trend.
+
+🔹 Classic category pizzas dominate total sales, making them the core revenue driver. Expanding this category or introducing variations could boost sales further.
+
+🔹 Bottom-performing pizzas contribute minimal revenue and may be candidates for menu optimization or targeted marketing campaigns.
+
+🔹 Peak ordering hours highlight demand concentration, enabling better scheduling and faster service during high-traffic periods.
 
 ---
 
